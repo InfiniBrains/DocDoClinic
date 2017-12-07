@@ -1,1 +1,1 @@
-web: nodemon --exec ./buildandrun.sh
+web: nodemon --ignore www/ --ignore resources/ --exec ./buildandrun.sh
